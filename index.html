@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Coding Quiz</title>
+    <link rel="stylesheet" href="../Module-4-Challenge/Assets/css/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class= "container">
+        <div class="card">
+            <p id="timer">Time Left: 60</p>
+            <h1>JavaScript Coding Quiz</h1>
+                <div class="quiz-container">
+                    
+                <button id="start-btn">Start Quiz</button>
+                    
+            </div>
+                <div class="questions">
+                    <h2 class="questions"></h2>
+                    <ul id="answers">
+                        <li><button></button></li>
+                        <li><button></button></li>
+                        <li><button></button></li>
+                        <li><button></button></li>
+                    </ul>
+                </div>
+                <div id="score-container">
+                    <p>Your Score : <span id="score"></span></p>
+                    <form id="initials-form">
+                        <label for="initials">Please Enter your initials:</label>
+                        <input type="text" id="initials" name="initials" required>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+        </div>
+    </div> 
+
+<script src="Assets/js/script.js"></script>
+</body>
+</html>
